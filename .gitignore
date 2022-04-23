@@ -1,0 +1,58 @@
+###############
+## GitIgnore ##
+###############
+
+.DS_Store
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+bin/
+tmp/
+
+/.metadata/
+/Servers/
+
+*.tmp
+*.bak
+*.swp
+*~.nib
+
+local.properties
+editorconfig
+
+.loadpath/
+.factorypath/
+
+# maven project related ignore files and directories  
+.mvn/  
+target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+.gitkeep
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
